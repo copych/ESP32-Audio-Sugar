@@ -197,7 +197,7 @@ cancels an unconfirmed action. Save replaces that selected slot. Presets are not
 automatically loaded on boot.
 
 Presets use **JSON v5** with stable engine/effect identities and parameter keys;
-versions 1–4 remain readable for compatible configurations. Native controls missing
+versions 1Â–4 remain readable for compatible configurations. Native controls missing
 from a file take their declared defaults. Incompatible identities, invalid values
 and mismatched FX capacities are rejected. Internal-flash writes/formatting pause
 audio deliberately; loading applies a prepared snapshot while muted. **Erase internal
@@ -256,8 +256,8 @@ Key settings are in [Config.h](ESP32AudioSugar/Config.h) and
 
 | Setting | Purpose |
 | --- | --- |
-| `SUGAR_PART_CAPACITY` | Number of compiled parts; default 2, supported range 1–4 |
-| `SUGAR_FX_SLOTS` | Serial insert slots per part; default 2, supported range 1–8 |
+| `SUGAR_PART_CAPACITY` | Number of compiled parts; default 2, supported range 1Â–4 |
+| `SUGAR_FX_SLOTS` | Serial insert slots per part; default 2, supported range 1Â–8 |
 | `SUGAR_BLOCK_FRAMES` | Audio block size; committed default 128 |
 | `SUGAR_USB_AUDIO` / `SUGAR_USB_MIDI` | Enable the corresponding USB function |
 
@@ -298,4 +298,4 @@ current GUI/native-parameter guides for today's workflow.
 
 ## License
 
-A project license has not yet been declared in this repository.
+MIT License.
